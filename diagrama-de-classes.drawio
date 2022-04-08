@@ -1,19 +1,19 @@
 <mxfile host="65bd71144e">
     <diagram id="CnORZxtt4IYmu5O9G4gE" name="Página-1">
-        <mxGraphModel dx="773" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1118" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="15" value="Drink" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="80" width="160" height="560" as="geometry">
+                <mxCell id="15" value="Drink" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="160" height="590" as="geometry">
                         <mxRectangle x="370" y="130" width="90" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" value="+ UUID: uuid&#10;&#10;+ Name: string&#10;&#10;+ Brand: string&#10;&#10;+ Coutry: string&#10;&#10;+ State: string&#10;&#10;+ Type: sring&#10;&#10;+ SubType: string&#10;&#10;+ Year: INT&#10;&#10;+ Age: INT&#10;&#10;+ Visual: text&#10;&#10;+ Scents: text&#10;&#10;+ Taste: text&#10;&#10;+ Harmonization: text&#10;&#10;+ Observation: text" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;" vertex="1" parent="15">
-                    <mxGeometry y="26" width="160" height="394" as="geometry"/>
+                <mxCell id="16" value="+ UUID: uuid&#10;&#10;+ Name: string&#10;&#10;+ Brand: string&#10;&#10;+ Coutry: string&#10;&#10;+ State: string&#10;&#10;+ Type: sring&#10;&#10;+ SubType: string&#10;&#10;+ Year: INT&#10;&#10;+ Age: INT&#10;&#10;+ Visual: text&#10;&#10;+ Scents: text&#10;&#10;+ Taste: text&#10;&#10;+ Harmonization: text&#10;&#10;+ Observation: text&#10;&#10;+ Image: Base64" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;" parent="15" vertex="1">
+                    <mxGeometry y="26" width="160" height="424" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="+ creat()&#10;&#10;+ getList()&#10;&#10;+ getByUUID()&#10;&#10;+ Update()&#10;&#10;+ Delete()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="15">
-                    <mxGeometry y="420" width="160" height="140" as="geometry"/>
+                <mxCell id="17" value="+ creat()&#10;&#10;+ getList()&#10;&#10;+ getByUUID()&#10;&#10;+ Update()&#10;&#10;+ Delete()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="15" vertex="1">
+                    <mxGeometry y="450" width="160" height="140" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

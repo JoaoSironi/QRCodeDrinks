@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KptcPsCSpmTdQdGcT4NvFhQ6/EKx+6HzAOxYaTAU1Kk=",
+  "Source": "drinksAPI",
+  "BasePath": "_content/drinksAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
